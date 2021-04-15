@@ -34,20 +34,49 @@ NOTE- the output of the sublister needs to be passed from httpstatus.io to valid
 
 ### (4) massdns https://github.com/blechschmidt/massdns
 ####   -Description  
-        Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather               subdomains for the domain they are targeting.
+        MassDNS is a simple high-performance DNS stub resolver targeting those who seek to resolve a massive amount of domain names in the order of millions or           even billions. 
 ####   -Usage   
-       To enumerate subdomains of specific domain and show only subdomains which have open ports 80 and 443 :
-       python sublist3r.py -d example.com -p 80,443
+       $ ./bin/massdns -r lists/resolvers.txt -t AAAA domains.txt > results.txt  
+       Load all your domains in domain.txt
+
+
+### (5) nmap https://nmap.org
+####   -Description    
+         At a practical level, Nmap is used to provide detailed, real-time information on your networks, and on the devices connected to them.
+####   -Usage   
+       $nmap -A scanme.nmap.org
+       
+### (4) masscan https://github.com/robertdavidgraham/masscan
+####   -Description  
+        This is an Internet-scale port scanner. It can scan the entire Internet in under 5 minutes, transmitting 10 million packets per second, from a single              machine.Its usage (parameters, output) is similar to nmap, the most famous port scanner. When in doubt, try one of those features -- features that               support widespread scanning of many machines are supported, while in-depth scanning of single machines aren't.
+####   -Usage    
+        masscan -p80,8000-8100 10.0.0.0/8 2603:3001:2d00:da00::/112 --echo > xxx.conf
+        
+### (4) EyeWitness https://github.com/ChrisTruncer/EyeWitness
+####   -Description  
+        
+####   -Usage   
+       $### (4) 
+####   -Description  
+        
+####   -Usage   
+       $### (4) 
+####   -Description  
+        
+####   -Usage   
+       $### (4) 
+####   -Description  
+        
+####   -Usage   
+       $
 
 
 
 
 
-nmap https://nmap.org
 
-masscan https://github.com/robertdavidgraham/masscan
 
-EyeWitness https://github.com/ChrisTruncer/EyeWitness
+
 
 DirBuster https://sourceforge.net/projects/dirbuster/
 
