@@ -7,12 +7,41 @@
 
 
 ### (1) dnscan https://github.com/rbsec/dnscan
+####   -Description  
+        dnscan is a python wordlist-based DNS subdomain scanner.  
+        The script will first try to perform a zone transfer using each of the target domain's nameservers.
+####   -Usage   
+        dnscan.py (-d <domain> | -l <list>)  
+          
+          
+        
+        
+        
+### (2) Knockpy https://github.com/guelfoweb/knock
+####   -Description  
+        Knockpy is a python3 tool designed to enumerate subdomains on a target domain through dictionary attack.
+####   -Usage   
+        $ knockpy domain.com
+          
+### (3) Sublist3r https://github.com/aboul3la/Sublist3r
+####   -Description  
+        Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather               subdomains for the domain they are targeting.
+####   -Usage   
+       To enumerate subdomains of specific domain and show only subdomains which have open ports 80 and 443 :
+       python sublist3r.py -d example.com -p 80,443
+       
+NOTE- the output of the sublister needs to be passed from httpstatus.io to validate the results
 
-Knockpy https://github.com/guelfoweb/knock
+### (4) massdns https://github.com/blechschmidt/massdns
+####   -Description  
+        Sublist3r is a python tool designed to enumerate subdomains of websites using OSINT. It helps penetration testers and bug hunters collect and gather               subdomains for the domain they are targeting.
+####   -Usage   
+       To enumerate subdomains of specific domain and show only subdomains which have open ports 80 and 443 :
+       python sublist3r.py -d example.com -p 80,443
 
-Sublist3r https://github.com/aboul3la/Sublist3r
 
-massdns https://github.com/blechschmidt/massdns
+
+
 
 nmap https://nmap.org
 
