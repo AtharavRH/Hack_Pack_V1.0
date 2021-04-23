@@ -54,21 +54,106 @@ NOTE- the output of the sublister needs to be passed from httpstatus.io to valid
         
 ### (4) EyeWitness https://github.com/ChrisTruncer/EyeWitness
 ####   -Description  
+        EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known.
+        Main key feature is about its addons and a html report file is created.
+NOTE-   Aquatone could be better replacement for this.   
+
+### (4) DirBuster https://sourceforge.net/projects/dirbuster/
+####   -Description   
+        DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers.
+####   -Usage   
+       A java Application hence easy to use .
+       
+NOTE   -Dirsearch might be a better replacement for this. A command line tool.
+
+### (4) Dirsearch https://github.com/maurosoria/dirsearch
+####   -Description   
+        "dirsearch" is a mature command-line tool designed to brute force directories and files in webservers.
+####   -Usage    
+        python3 dirsearch.py -u http://XXXXX/ -w db/worldlist.txt
+
+
+### (4) Gitrob https://github.com/michenriksen/gitrob
+####   -Description 
+        Gitrob is a command line tool which can help organizations and security professionals find sensitive information lingering in publicly available files on         GitHub. The tool will iterate over all public organization and member repositories and match filenames against a range of patterns for files that                 typically contain sensitive or dangerous information.
+        Faced alots of issues while installing , use the beta release 
+####   -Usage   
+       gitrob [options] target [target2] ... [targetN]
+
+### (4) sandcastle https://github.com/yasinS/sandcastle
+####   -Description   
+        A Python script for AWS S3 bucket enumeration, formerly known as bucketCrawler.The script takes a target's name as the stem argument (e.g. shopify) and           iterates through a file of bucket name permutations, such as the ones below:
+####   -Usage
+        sandcastle.py [-h] -t targetStem 
+       
+### (4) bucket_finder https://digi.ninja/projects/bucket_finder.php
+####   -Description   
+        This is a fairly simple tool to run, all it requires is a wordlist and it will go off and check each word to see if that bucket name exists in the                 Amazon's S3 system. Any that it finds it will check to see if the bucket is public, private or a redirect.
+####   -Usage   
+       ./bucket_finder.rb my_words
+       
+### (4) Wayback Machine https://web.archive.org
+####   -Description   
+        A browser extension which quickly checks to by pass 404 page that might have previously stored in the machine.
+####   -Usage   
+       add the browser extension.
+       
+bonus Dork- site: http://www.target.com filetype:txt  
+
+### (4) waybackurls https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050 
+####   -Description   
+        Waybackurls Fetch known URLs from the Wayback Machine for *.domain and output them on stdout. As wayback machine which stored urls of our target .                 Waybackurls r eturns as result a list of all the URLs that the Wayback Machine stored .
+####   -Usage   
+        cat domains.txt | waybackurls > urls
+        
+### (4) XRay https://github.com/evilsocket/xray
+####   -Description   
+        XRay is a tool for network OSINT gathering, its goal is to make some of the initial tasks of information gathering and network mapping automatic.
+####   -Usage   
+        xray -shodan-key YOUR_SHODAN_API_KEY -domain TARGET_DOMAIN
+
+
+### (4) wfuzz https://github.com/xmendez/wfuzz/
+####   -Description   
         
 ####   -Usage   
-       $### (4) 
-####   -Description  
+       
+
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
         
 ####   -Usage   
-       $### (4) 
-####   -Description  
+       
+
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
         
 ####   -Usage   
-       $### (4) 
-####   -Description  
+       
+
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
         
 ####   -Usage   
-       $
+       
+
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
+
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
+
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
 
 
 
@@ -78,29 +163,26 @@ NOTE- the output of the sublister needs to be passed from httpstatus.io to valid
 
 
 
-DirBuster https://sourceforge.net/projects/dirbuster/
 
-dirsearch https://github.com/maurosoria/dirsearch
 
-Gitrob https://github.com/michenriksen/gitrob
 
-git-secrets https://github.com/awslabs/git-secrets
 
-sandcastle https://github.com/yasinS/sandcastle
 
-bucket_finder https://digi.ninja/projects/bucket_finder.php
 
-GoogD0rker https://github.com/ZephrFish/GoogD0rker/
 
-Wayback Machine https://web.archive.org
 
-waybackurls https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050 
 
-Sn1per https://github.com/1N3/Sn1per/
 
-XRay https://github.com/evilsocket/xray
 
-wfuzz https://github.com/xmendez/wfuzz/
+
+
+
+
+
+
+
+
+
 
 patator https://github.com/lanjelot/patator
 
