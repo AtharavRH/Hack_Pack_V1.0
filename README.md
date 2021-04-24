@@ -1,7 +1,7 @@
 # Hack_Pack_V1.0
-
-<img src="images.png" width="200" height="400" />   
-
+<p align="center">
+<img src="images.png" width="300" height="300" />   
+</p>
 ## -->> Mega Combo of top selected hacking tools with description and working <<-- 
 
   * *Each tool is hand selected and verified as important tool for pentration testing and BugBounty.*
