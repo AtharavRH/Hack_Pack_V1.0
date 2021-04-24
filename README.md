@@ -3,7 +3,7 @@
 <img src="final.jpg" width="500" height="300" />   
 </p>
 
-##-->> Mega Combo of top selected hacking tools with description and working <<--    
+##  *Mega Combo of top selected hacking tools with description and working*    
    *Each tool is hand selected and verified as important tool for pentration testing and BugBounty.*
    *Boom Lets get Started*
 
@@ -51,19 +51,19 @@ NOTE- the output of the sublister needs to be passed from httpstatus.io to valid
 ####   -Usage   
        $nmap -A scanme.nmap.org
        
-### (4) masscan https://github.com/robertdavidgraham/masscan
+### (6) masscan https://github.com/robertdavidgraham/masscan
 ####   -Description  
         This is an Internet-scale port scanner. It can scan the entire Internet in under 5 minutes, transmitting 10 million packets per second, from a single              machine.Its usage (parameters, output) is similar to nmap, the most famous port scanner. When in doubt, try one of those features -- features that               support widespread scanning of many machines are supported, while in-depth scanning of single machines aren't.
 ####   -Usage    
         masscan -p80,8000-8100 10.0.0.0/8 2603:3001:2d00:da00::/112 --echo > xxx.conf
         
-### (4) EyeWitness https://github.com/ChrisTruncer/EyeWitness
+### (7) EyeWitness https://github.com/ChrisTruncer/EyeWitness
 ####   -Description  
         EyeWitness is designed to take screenshots of websites provide some server header info, and identify default credentials if known.
         Main key feature is about its addons and a html report file is created.
 NOTE-   Aquatone could be better replacement for this.   
 
-### (4) DirBuster https://sourceforge.net/projects/dirbuster/
+### (8) DirBuster https://sourceforge.net/projects/dirbuster/
 ####   -Description   
         DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers.
 ####   -Usage   
@@ -71,33 +71,33 @@ NOTE-   Aquatone could be better replacement for this.
        
 NOTE   -Dirsearch might be a better replacement for this. A command line tool.
 
-### (4) Dirsearch https://github.com/maurosoria/dirsearch
+### (9) Dirsearch https://github.com/maurosoria/dirsearch
 ####   -Description   
         "dirsearch" is a mature command-line tool designed to brute force directories and files in webservers.
 ####   -Usage    
         python3 dirsearch.py -u http://XXXXX/ -w db/worldlist.txt
 
 
-### (4) Gitrob https://github.com/michenriksen/gitrob
+### (10) Gitrob https://github.com/michenriksen/gitrob
 ####   -Description 
         Gitrob is a command line tool which can help organizations and security professionals find sensitive information lingering in publicly available files on         GitHub. The tool will iterate over all public organization and member repositories and match filenames against a range of patterns for files that                 typically contain sensitive or dangerous information.
         Faced alots of issues while installing , use the beta release 
 ####   -Usage   
        gitrob [options] target [target2] ... [targetN]
 
-### (4) sandcastle https://github.com/yasinS/sandcastle
+### (11) sandcastle https://github.com/yasinS/sandcastle
 ####   -Description   
         A Python script for AWS S3 bucket enumeration, formerly known as bucketCrawler.The script takes a target's name as the stem argument (e.g. shopify) and           iterates through a file of bucket name permutations, such as the ones below:
 ####   -Usage
         sandcastle.py [-h] -t targetStem 
        
-### (4) bucket_finder https://digi.ninja/projects/bucket_finder.php
+### (12) bucket_finder https://digi.ninja/projects/bucket_finder.php
 ####   -Description   
         This is a fairly simple tool to run, all it requires is a wordlist and it will go off and check each word to see if that bucket name exists in the                 Amazon's S3 system. Any that it finds it will check to see if the bucket is public, private or a redirect.
 ####   -Usage   
        ./bucket_finder.rb my_words
        
-### (4) Wayback Machine https://web.archive.org
+### (13) Wayback Machine https://web.archive.org
 ####   -Description   
         A browser extension which quickly checks to by pass 404 page that might have previously stored in the machine.
 ####   -Usage   
@@ -105,20 +105,20 @@ NOTE   -Dirsearch might be a better replacement for this. A command line tool.
        
 bonus Dork- site: http://www.target.com filetype:txt  
 
-### (4) waybackurls https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050 
+### (14) waybackurls https://gist.github.com/mhmdiaa/adf6bff70142e5091792841d4b372050 
 ####   -Description   
         Waybackurls Fetch known URLs from the Wayback Machine for *.domain and output them on stdout. As wayback machine which stored urls of our target .                 Waybackurls r eturns as result a list of all the URLs that the Wayback Machine stored .
 ####   -Usage   
         cat domains.txt | waybackurls > urls
         
-### (4) XRay https://github.com/evilsocket/xray
+### (15) XRay https://github.com/evilsocket/xray
 ####   -Description   
         XRay is a tool for network OSINT gathering, its goal is to make some of the initial tasks of information gathering and network mapping automatic.
 ####   -Usage   
         xray -shodan-key YOUR_SHODAN_API_KEY -domain TARGET_DOMAIN
 
 
-### (4) wfuzz https://github.com/xmendez/wfuzz/
+### (16) wfuzz https://github.com/xmendez/wfuzz/
 ####   -Description   
         
 ####   -Usage   
