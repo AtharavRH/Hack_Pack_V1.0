@@ -195,10 +195,11 @@ Tip-  Proper studying the ports from Nmap scan and using a proper , common wordl
         
 ### (4) The JSON Web Token Toolkit https://github.com/ticarpi/jwt_tool
 ####   -Description   
-        
+        jwt_tool.py is a toolkit for validating, forging and cracking JWTs (JSON Web Tokens).This tool is written for pentesters, who need to check the strength            of the tokens in use, and their susceptibility to known attacks.
 ####   -Usage   
-       
-### (4) Sn1per https://github.com/1N3/Sn1per/
+        python3 jwt_tool.py <JWT>
+        
+### (4) ground-control https://github.com/jobertabma/ground-control
 ####   -Description   
         
 ####   -Usage   
@@ -277,7 +278,7 @@ Tip-  Proper studying the ports from Nmap scan and using a proper , common wordl
 
 
 
-ground-control https://github.com/jobertabma/ground-control
+
 
 ssrfDetector https://github.com/JacobReynolds/ssrfDetector
 
