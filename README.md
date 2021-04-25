@@ -110,7 +110,14 @@ bonus Dork- site: http://www.target.com filetype:txt
         Waybackurls Fetch known URLs from the Wayback Machine for *.domain and output them on stdout. As wayback machine which stored urls of our target .                 Waybackurls r eturns as result a list of all the URLs that the Wayback Machine stored .
 ####   -Usage   
         cat domains.txt | waybackurls > urls
-        
+
+### (16) fuffuzz  https://github.com/ffuf/ffuf   or  https://github.com/xmendez/wfuzz/
+####   -Description   
+        A upgraded version of Dirsearch. Only difference, you cannot add coustom parameters for bruteforcing in dirsearch.Prefer fuff over wfuzz has working               documentary is available.This simple concept allows any input to be injected in any field of an HTTP request, allowing to perform complex web security             attacks in different web application components such as: parameters, authentication, forms, directories/files, headers, etc.
+####   -Usage   
+       ffuf -w /path/to/wordlist -u https://target/FUZZ  
+
+Tip- For more simplicity and better understanding use Burpsuite.      
 ### (15) XRay https://github.com/evilsocket/xray
 ####   -Description   
         XRay is a tool for network OSINT gathering, its goal is to make some of the initial tasks of information gathering and network mapping automatic.
@@ -118,50 +125,110 @@ bonus Dork- site: http://www.target.com filetype:txt
         xray -shodan-key YOUR_SHODAN_API_KEY -domain TARGET_DOMAIN
 
 
+### (4) Gau(GetallUrls) https://github.com/lc/gau
+####   -Description   
+        getallurls (gau) fetches known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl for any given domain. Inspired by               Tomnomnom's waybackurls.One of the best tools for fuzzing.It is automation of going through Wayback Urls and detecting the fuzzing variables.  
+        Finds all sensitive directory.Mixture of tools for finding sensitive directory hence best to use.
+        
+####   -Usage   
+       gau example.com
+       gau -o example-urls.txt example.com
 
 # REPOSITRY UNDER CONSTRUCTION BELOW THIS
 
-### (16) wfuzz https://github.com/xmendez/wfuzz/
+
+       
+
+
+
+### (4) ParamSpider https://github.com/devanshbatham/ParamSpider
+####   -Description   
+        Finds parameters from web archives of the entered domain. Finds parameters from subdomains as well. Gives support to exclude urls with specific                   extensions. Saves the output result in a nice and clean manner. It mines the parameters from web archives (without interacting with the target host)
+####   -Usage   
+        python3 paramspider.py --domain hackerone.com --level high
+        python3 paramspider.py --domain hackerone.com
+
+Tip- An excellent tool for begginers ,providing the output from Gau , Wayback Urls would make Your work completely automated. Giving you potential leads in no             time.
+
+### (4) patator https://github.com/lanjelot/patator
+####   -Description   
+        A brute forcing tool for various services like FTP,SSh,SMTP,HTTP etc. Its a better replacement for tool Medusa , Metasploit, Hydra , Ncrack.
+####   -Usage   
+       ./patator.py ftp_login host=192.168.1.105 user=FILE0 password=FILE1 0=user.txt 1=passwords.txt
+
+Tip-  Proper studying the ports from Nmap scan and using a proper , common wordlist can give you highly potential data.
+
+### (4) datasploit https://github.com/DataSploit/datasploit
+####   -Description   
+        Performs OSINT (open source intelligence) on a domain / email / username / phone and find out information from different sources.
+####   -Usage   
+       python datasploit.py test.com
+
+### (4) changeme https://github.com/ztgrace/changeme
+####   -Description   
+        changeme picks up where commercial scanners leave off. It focuses on detecting default and backdoor credentials and not necessarily common credentials.           It's default mode is to scan HTTP default credentials, but has support for other credentials.
+####   -Usage   
+       ./changeme.py 192.168.59.100
+       ./changeme.py snmp://192.168.1.20
+       
+### (4) sqlmap http://sqlmap.org/
+####   -Description   
+        Sqlmap is an open source penetration testing tool that automates the process of detecting and exploiting SQL injection flaws and taking over of database            servers.
+####   -Usage   
+        sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 --dbs 
+        sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=1 -D acuart --tables 
+        for detailed use -https://www.geeksforgeeks.org/use-sqlmap-test-website-sql-injection-vulnerability/
+        
+### (4) oxml_xxe https://github.com/BuffaloWill/oxml_xxe/
+####   -Description   
+        This tool is meant to help test XXE vulnerabilities in OXML document file formats.Very old tool and hard to find vulenbrity.
+####   -Usage   
+        Run docker-compose up
+        Browse to http://localhost:4567/ to get started.
+        
+### (4) XXE Injector https://github.com/enjoiz/XXEinjector
+####   -Description   
+        XXEinjector automates retrieving files using direct and out of band methods. Directory listing only works in Java applications. Bruteforcing method needs         to be used for other applications.
+####   -Usage   
+        ruby XXEinjector.rb --host=192.168.0.2 --path=/etc --file=/tmp/req.txt –ssl
+        
+        
+### (4) The JSON Web Token Toolkit https://github.com/ticarpi/jwt_tool
 ####   -Description   
         
 ####   -Usage   
        
-
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
+### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Description   
+        
+####   -Usage   
+       
 ### (4) Sn1per https://github.com/1N3/Sn1per/
 ####   -Description   
         
 ####   -Usage   
        
 
-### (4) Sn1per https://github.com/1N3/Sn1per/
-####   -Description   
-        
-####   -Usage   
-       
-
-### (4) Sn1per https://github.com/1N3/Sn1per/
-####   -Description   
-        
-####   -Usage   
-       
-
-### (4) Sn1per https://github.com/1N3/Sn1per/
-####   -Description   
-        
-####   -Usage   
-       
-
-### (4) Sn1per https://github.com/1N3/Sn1per/
-####   -Description   
-        
-####   -Usage   
-       
-
-### (4) Sn1per https://github.com/1N3/Sn1per/
-####   -Description   
-        
-####   -Usage   
-       
 
 
 
@@ -192,27 +259,23 @@ bonus Dork- site: http://www.target.com filetype:txt
 
 
 
-patator https://github.com/lanjelot/patator
 
-datasploit https://github.com/DataSploit/datasploit
 
-hydra https://github.com/vanhauser-thc/thc-hydra
 
-changeme https://github.com/ztgrace/changeme
 
-MobSF https://github.com/MobSF/Mobile-Security-Framework-MobSF/ 
 
-Apktool https://github.com/iBotPeaches/Apktool
 
-dex2jar https://sourceforge.net/projects/dex2jar/
 
-sqlmap http://sqlmap.org/
 
-oxml_xxe https://github.com/BuffaloWill/oxml_xxe/
 
-XXE Injector https://github.com/enjoiz/XXEinjector
 
-The JSON Web Token Toolkit https://github.com/ticarpi/jwt_tool
+
+
+
+
+
+
+
 
 ground-control https://github.com/jobertabma/ground-control
 
@@ -249,5 +312,7 @@ WPScan https://wpscan.org/
 CMSMap https://github.com/Dionach/CMSmap
 
 Amass https://github.com/OWASP/Amass
-
+MobSF https://github.com/MobSF/Mobile-Security-Framework-MobSF/ 
+Apktool https://github.com/iBotPeaches/Apktool
+dex2jar https://sourceforge.net/projects/dex2jar/
 exclude dirbuster and sniper Amass due 
