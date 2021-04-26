@@ -1,6 +1,6 @@
 # Hack_Pack_V1.0
 <p align="center">
-<img src="final.jpg" width="500" height="300" />   
+<img src="final.jpg" width="400" height="200" />   
 </p>
 
 ##  *Mega Combo of top selected hacking tools with description and working*    
@@ -43,8 +43,14 @@ NOTE- the output of the sublister needs to be passed from httpstatus.io to valid
 ####   -Usage   
        $ ./bin/massdns -r lists/resolvers.txt -t AAAA domains.txt > results.txt  
        Load all your domains in domain.txt
-
-
+       
+### (4) Sudomy https://github.com/Screetsec/Sudomy    BEST TOOL FOR SUBDOMAIN ENUMERATION 
+####   -Description   
+        Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing advanced automated reconnaissance (framework). This tool can         also be used for OSINT (Open-source intelligence) activities.
+####   -Usage  
+        To use all 22 Sources and Probe for working http or https servers (Validations):
+        $ sudomy -d hackerone.com
+         
 ### (5) nmap https://nmap.org
 ####   -Description    
          At a practical level, Nmap is used to provide detailed, real-time information on your networks, and on the devices connected to them.
@@ -199,35 +205,80 @@ Tip-  Proper studying the ports from Nmap scan and using a proper , common wordl
 ####   -Usage   
         python3 jwt_tool.py <JWT>
         
-### (4) ground-control https://github.com/jobertabma/ground-control
+### (4) XSStrike https://github.com/s0md3v/XSStrike
+####   -Description   
+        XSStrike is a Cross Site Scripting detection suite equipped with four hand written parsers, an intelligent payload generator, a powerful fuzzing engine           and an incredibly fast crawler.
+####   -Usage   
+        python3 xsstrike.py -u https://target.com/id/
+        
+### (4) LFISuit https://github.com/D35m0nd142/LFISuite
+####   -Description   
+        LFI Suite is a totally automatic tool able to scan and exploit Local File Inclusion vulnerabilities using many different methods of attack,
+####   -Usage   
+        python lfisuite.py 
+        Just run this and it will give you a user friendly interrface
+
+### (4) gitfinder  https://github.com/guptabless/gitfinder
+####   -Description   
+        this python script also helps to search for the hidden git directory and dumps its contents.
+
+####   -Usage   
+        python git.py –u <URL>
+        URL: where we want to search .git directory and we have to provide URL without http:/https or .git append.
+        
+### (4) GitTools https://github.com/internetwache/GitTools
+####   -Description   and usage
+        Finder
+        You can use this tool to find websites with their .git repository available to the public
+        gitfinder.py [-h] [-i INPUTFILE] [-o OUTPUTFILE] [-t THREADS]
+        The input file should contain the targets one per line    
+        Dumper
+        This tool can be used to download as much as possible from the found .git repository from webservers which do not have directory listing enabled.
+        bash gitdumper.sh http://target.tld/.git/ dest-dir
+        Git Extractor
+        This is a script which tries to recover incomplete git repositories:
+        bash extractor.sh /tmp/mygitrepo /tmp/mygitrepodump
+
+Tip- Go through this blog for complete step wise usage of both this tools.
+
+### (4) tko-subs https://github.com/anshumanbh/tko-subs
+####   -Description   
+        To check whether a subdomain can be taken over because it has:
+        a dangling CNAME pointing to a CMS provider (Heroku, Github, Shopify, Amazon S3, Amazon CloudFront, etc.) that can be taken over.
+####   -Usage   
+        tko-subs -domain xxx.com  -data=providers-data.csv -output=output.csv
+        tko-subs -domains=domains.txt -data=providers-data.csv -output=output.csv -takeover -githubtoken=<github-token> -herokuusername=<heroku-username> -               herokuapikey=<heroku-api-key> -herokuappname=<heroku-app-name>
+        
+### (4) Race the Web https://github.com/insp3ctre/race-the-web
+####   -Description   
+        https://www.slideshare.net/AaronHnatiw/racing-the-web-hackfest-2016
+####   -Usage 
+        race-the-web config.toml
+        
+### (4) tko-subs https://github.com/anshumanbh/tko-subs
 ####   -Description   
         
-####   -Usage   
-       
-### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Usage 
+
+### (4) tko-subs https://github.com/anshumanbh/tko-subs
 ####   -Description   
         
-####   -Usage   
-       
-### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Usage 
+
+### (4) tko-subs https://github.com/anshumanbh/tko-subs
 ####   -Description   
         
-####   -Usage   
-       
-### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Usage 
+
+### (4) tko-subs https://github.com/anshumanbh/tko-subs
 ####   -Description   
         
-####   -Usage   
-       
-### (4) Sn1per https://github.com/1N3/Sn1per/
+####   -Usage 
+
+### (4) tko-subs https://github.com/anshumanbh/tko-subs
 ####   -Description   
         
-####   -Usage   
-       
-### (4) Sn1per https://github.com/1N3/Sn1per/
-####   -Description   
-        
-####   -Usage   
+####   -Usage 
        
 
 
@@ -280,19 +331,16 @@ Tip-  Proper studying the ports from Nmap scan and using a proper , common wordl
 
 
 
-ssrfDetector https://github.com/JacobReynolds/ssrfDetector
 
-LFISuit https://github.com/D35m0nd142/LFISuite
 
-GitTools https://github.com/internetwache/GitTools
 
-dvcs-ripper https://github.com/kost/dvcs-ripper
 
-tko-subs https://github.com/anshumanbh/tko-subs
 
-HostileSubBruteforcer https://github.com/nahamsec/HostileSubBruteforcer
 
-Race the Web https://github.com/insp3ctre/race-the-web
+
+
+
+
 
 ysoserial https://github.com/GoSecure/ysoserial
 
