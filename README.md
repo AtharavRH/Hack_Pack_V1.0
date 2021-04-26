@@ -144,13 +144,6 @@ Tip- For more simplicity and better understanding use Burpsuite.
        gau example.com
        gau -o example-urls.txt example.com
 
-# REPOSITRY UNDER CONSTRUCTION BELOW THIS
-
-
-       
-
-
-
 ### (20) ParamSpider https://github.com/devanshbatham/ParamSpider
 ####   -Description   
         Finds parameters from web archives of the entered domain. Finds parameters from subdomains as well. Gives support to exclude urls with specific                   extensions. Saves the output result in a nice and clean manner. It mines the parameters from web archives (without interacting with the target host)
@@ -315,100 +308,25 @@ Tip- Go through this blog for complete step wise usage of both this tools.
 Also added some Android Testing Tools
 MobSF https://github.com/MobSF/Mobile-Security-Framework-MobSF/ 
 Apktool https://github.com/iBotPeaches/Apktool
-dex2jar https://sourceforge.net/projects/dex2jar/
+dex2jar https://sourceforge.net/projects/dex2jar/  
+   
+   
        
-# Hoping to make it best, thus always open for contributions. You can open a new issue or pull me a request.
+### Hoping to make it best, thus always open for contributions. You can open a new issue or pull me a request.  
+
 
 ## Contributors :
 Om Suryakant Koli (omkoli3600xt@gmail.com)
 
 Atharva R. Hedage (atharavhedage@gmail.com)
 
-GitHub :
+GitHub :  
+github.com/omkoli  
+github.com/AtharavRH    
 
-github.com/omkoli
-github.com/AtharavRH
-LinkedIn :
+LinkedIn :    
+linkedin.com/omkoli    
+linkedin.com/atharavhedage    
 
-linkedin.com/omkoli
-linkedin.com/atharavhedage
+**DISCLAIMER :- This repo is only for penetration testing and security research. I will not be responsible if you use it for any illegal activities.**
 
-DISCLAIMER :- This repo is only for penetration testing and security research. I will not be responsible if you use it for any illegal activities.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-exclude dirbuster and sniper Amass due 
