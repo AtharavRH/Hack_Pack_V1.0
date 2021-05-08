@@ -49,7 +49,8 @@ NOTE- the output of the sublister needs to be passed from httpstatus.io to valid
        $ ./bin/massdns -r lists/resolvers.txt -t AAAA domains.txt > results.txt  
        Load all your domains in domain.txt
        
-### 6) Sudomy https://github.com/Screetsec/Sudomy    BEST TOOL FOR SUBDOMAIN ENUMERATION 
+### 6) Sudomy https://github.com/Screetsec/Sudomy
+
 ####   -Description   
         Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing advanced automated reconnaissance (framework). This tool can         also be used for OSINT (Open-source intelligence) activities.
 ####   -Usage  
