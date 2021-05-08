@@ -3,7 +3,7 @@
 <img src="final.jpg" width="400" height="200" />   
 </p>
 
-##  *Mega Combo of top selected hacking tools with description and working*    
+##  *Mega Combo of top selected hacking tools with their description and working*    
    *Each tool is hand selected and verified as important tool for Pentration Testing and Bug Hunting.*
    *Boom! Lets get Started.*
 
