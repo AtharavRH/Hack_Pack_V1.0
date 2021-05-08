@@ -311,14 +311,17 @@ Tip- Go through this blog for complete step wise usage of both this tools.
              
 
 Also added some Android Testing Tools
-MobSF https://github.com/MobSF/Mobile-Security-Framework-MobSF/ 
-Apktool https://github.com/iBotPeaches/Apktool
-dex2jar https://sourceforge.net/projects/dex2jar/  
+
+-MobSF https://github.com/MobSF/Mobile-Security-Framework-MobSF/
+
+-Apktool https://github.com/iBotPeaches/Apktool
+
+-dex2jar https://sourceforge.net/projects/dex2jar/  
+
    
    
        
-### Hoping to make it best, thus always open for contributions. You can open a new issue or pull me a request.  
-
+### Hoping to make it best, thus always open for contributions. You can open a new issue or pull me a request. 
 
 ## Contributors :
 
