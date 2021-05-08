@@ -328,13 +328,18 @@ Om Suryakant Koli (omkoli3600xt@gmail.com)
 
 
 
-GitHub :  
-github.com/AtharavRH
-github.com/omkoli
+GitHub :
+- [github.com/AtharavRH](https://github.com/AtharavRH)
+- [github.com/omkoli](https://github.com/omkoli)
 
 LinkedIn :
-linkedin.com/atharavhedage
-linkedin.com/omkoli
+- [linkedin.com/atharavhedage](https://www.linkedin.com/in/atharavhedage/)
+- [linkedin.com/omkoli](https://www.linkedin.com/in/omkoli/)
+
+Instagram  :
+- [instagram.com/atharav_rh](https://www.instagram.com/atharav_rh/)
+- [instagram.com/0mkoli](https://www.instagram.com/0mkoli/)
+
 
 
 **DISCLAIMER :- This repository is only for penetration testing and security research. I will not be responsible if you use it for any illegal activities.**
